@@ -12,7 +12,7 @@ The package is both **Android** and **iOS** compatible.
 You can run example module by performing these steps:
 
 ```
-$ git clone git@github.com:vinhnglx/react-native-calendars.git
+$ git clone git@github.com:socloccoc/react-native-vietnamese-lunar-calendar.git
 $ npm install
 $ react-native run-ios
 ```
@@ -24,14 +24,14 @@ This project is compatible with Expo/CRNA (without ejecting), and the examples h
 ## Installation
 
 ```
-$ npm install --save vinhnglx/react-native-vietnamese-lunar-calendar
+$ npm install --save socloccoc/react-native-vietnamese-lunar-calendar
 ```
 
 The solution is implemented in JavaScript so no native module linking is required.
 
 ## Usage
 
-`import {`[Calendar](#calendar), [CalendarList](#calendarlist), [Agenda](#agenda)`} from 'react-native-calendars';`
+`import {`[Calendar](#calendar), [CalendarList](#calendarlist), [Agenda](#agenda)`} from 'react-native-vietnamese-lunar-calendar';`
 
 All parameters for components are optional. By default the month of current local date will be displayed.
 
