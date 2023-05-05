@@ -85,6 +85,7 @@ class CalendarListItem extends Component {
           {...calendarProps}
           testID={testID}
           current={item}
+          allowLunarDate={true}
           style={[{height: calendarHeight, width: calendarWidth}, this.style.calendar, style]}
           headerStyle={horizontal ? headerStyle : undefined}
           disableMonthChange
